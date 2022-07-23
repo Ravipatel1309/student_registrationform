@@ -22,12 +22,13 @@ body {
 h1 {
     text-align: center;
     margin: 2rem 0;
+    color: #2a009c;
 }
 
 .container {
     margin: 0 auto;
     width: 80%;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     /* align-items: center;
     justify-content: center; */
@@ -42,7 +43,6 @@ h1 {
 
 .form {
     padding: 2rem;
-    padding-top: 1rem;
     width: 50%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -80,7 +80,7 @@ h1 {
     width: 50%;
     /* background-color: aqua; */
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 h2 {
@@ -109,8 +109,8 @@ h2 {
 .card img {
     margin-right: 1rem;
     border-radius: 0.5rem;
-    width: 100px;
-    height: 130px;
+    width: 130px;
+    height: 150px;
 }
 
 .card .info {
@@ -129,10 +129,10 @@ h2 {
     outline: none;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
 
     .container {
-        height: 100vh;
+        height: 90vh;
         margin-bottom: 5rem;
     }
 
