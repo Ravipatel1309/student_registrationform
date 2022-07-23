@@ -26,7 +26,7 @@ const getData = () => {
         infoItem = [];
     }
     else {
-        infoItem = JSON.parse(localStorage.getItem("infoSection"))
+        infoItem = JSON.parse(localStorage.getItem("infoSection"));
     }
     infoItem.push(info);
     localStorage.setItem("infoSection", JSON.stringify(infoItem));
